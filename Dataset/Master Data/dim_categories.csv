@@ -1,15 +1,3 @@
-category_id,level_1_category,level_2_subcategory,level_3_segment,category_manager_name
-1,Cooking Essentials,Oil & Needs,Oil,Gani Mazumdar
-2,Cooking Essentials,Rice & Needs,Rice,Waheed Banerjee
-3,Cooking Essentials,Spices & Needs,Spices,Imran Chatterjee
-4,Cooking Essentials,Lentils & Needs,Lentils,Nazrul Guha
-5,Baby Care,Diapers & Needs,Diapers,Meher Shah
-6,Baby Care,Baby Food & Needs,Baby Food,Fariha Sultana
-7,Baby Care,Wipes & Needs,Wipes,Shamsunnahar Majumdar
-8,Personal Care,Shampoo & Needs,Shampoo,Romana Mia
-9,Personal Care,Skin Care & Needs,Skin Care,Elias Mazumdar
-10,Personal Care,Soap & Needs,Soap,Marzia Mazumdar
-11,Home Care,Detergent & Needs,Detergent,Ahsanul Reza
-12,Home Care,Cleaning & Needs,Cleaning,Rubel Bari
-13,Beverage,Tea/Coffee & Needs,Tea/Coffee,Miraj Nabi
-14,Beverage,Juices & Needs,Juices,Afrin Guha
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe0f92a84fb5ebca5ec5cefc121b0b97822020b2a6e603949ba77192a4c338cf
+size 844

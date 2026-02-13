@@ -1,6 +1,3 @@
-warehouse_id,warehouse_name,location_area,storage_capacity_units
-1,Tejgaon Central Hub,Dhaka Central,90500
-2,Uttara North DC,Dhaka North,70000
-3,Chittagong Port Depot,Chattogram,76000
-4,Sylhet Regional Hub,Sylhet,79500
-5,Savar Fulfillment Ctr,Dhaka Outskirts,94500
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6a5577c14db8aec0ca87acd064c28b89e142f5ff7dd78a32422bef432dcb139
+size 271
