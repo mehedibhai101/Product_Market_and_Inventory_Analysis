@@ -1,0 +1,36 @@
+let
+    // Extracted digital experimentation data from the Marketing directory.
+    Source_Folder = Folder.Files("your_folder_path"),
+
+    // Accessed the specific binary content for the A/B test results.
+    File_Content = Source_Folder{[#"Folder Path"="your_folder_path\Marketing\",Name="fact_ab_tests.csv"]}[Content],
+
+    // Imported the CSV document with the correct encoding and 7-column experiment schema.
+    Imported_Test_Data = Csv.Document(File_Content,[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+
+    // Promoted the first row to headers to identify test variants and performance metrics.
+    Promote_Headers = Table.PromoteHeaders(Imported_Test_Data, [PromoteAllScalars=true]),
+
+    // Assigned standardized data types to support duration-based analysis and conversion rate calculations.
+    Set_Data_Types = Table.TransformColumnTypes(Promote_Headers,{
+        {"test_id", type text}, 
+        {"variant_name", type text}, 
+        {"product_sk_id", Int64.Type}, 
+        {"start_date", type date}, 
+        {"end_date", type date}, 
+        {"traffic_allocated", Int64.Type}, 
+        {"conversion_count", Int64.Type}
+    }),
+
+    // Renamed headers to follow professional marketing analytics and UX research terminology.
+    Renamed_Columns = Table.RenameColumns(Set_Data_Types,{
+        {"test_id", "Test ID"}, 
+        {"variant_name", "Variant (Control/Test)"}, 
+        {"product_sk_id", "Product SK ID"}, 
+        {"start_date", "Start Date"}, 
+        {"end_date", "End Date"}, 
+        {"traffic_allocated", "Traffic Allocated"}, 
+        {"conversion_count", "Conversion Count"}
+    })
+in
+    Renamed_Columns
