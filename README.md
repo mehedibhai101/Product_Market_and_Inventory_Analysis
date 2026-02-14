@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/559225a4-232d-4c74-b1d5-0f00aaef6c73
 
 **DAX queries regarding various analytical calculations can be found [[here]](https://github.com/mehedibhai101/Product_Market_and_Inventory_Analysis/tree/main/DAX%20Calculations).**
 
-**An interactive Power BI dashboard used to report and explore sales trends can be found [[here]](https://app.powerbi.com/view?r=eyJrIjoiODQ5NDVlYWUtMmUzYS00YTViLWE0Y2UtZDZiODdmNjc2ZTc5IiwidCI6IjAwMGY1Mjk5LWU2YTUtNDYxNi1hNTI4LWJjZTNlNGUyYjk4ZCIsImMiOjEwfQ%3D%3D).**
+**An interactive Power BI dashboard used to report and explore analysis can be found [[here]](https://app.powerbi.com/view?r=eyJrIjoiODQ5NDVlYWUtMmUzYS00YTViLWE0Y2UtZDZiODdmNjc2ZTc5IiwidCI6IjAwMGY1Mjk5LWU2YTUtNDYxNi1hNTI4LWJjZTNlNGUyYjk4ZCIsImMiOjEwfQ%3D%3D).**
 
 ---
 
