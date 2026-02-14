@@ -104,7 +104,7 @@ Based on the insights above, the following strategic actions are recommended for
 ## 📂 Repository Structure
 
 ```
-Product_Market_and_Inventory_Analytics/
+Product_Market_and_Inventory_Analysis/
 │
 ├── Dashboard/                            # Final visualization and reporting outputs
 │   ├── assets/                           # Visual elements used in reports (logos, icons, etc.)
